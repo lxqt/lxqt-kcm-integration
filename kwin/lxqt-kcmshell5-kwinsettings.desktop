@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Name=LXQt KWin Settings
+Comment=Decoration, Actions, Focus, Moving, Rules, Composing and others
+Exec=kcmshell5 --desktopfile=/usr/share/kservices5/kwindecoration.desktop --caption="LXQt KWin Settings" kwinactions kwindecoration kwinfocus kwinmoving kwinadvanced kwinrules kwincompositing kwineffects kwintabbox kwinscreenedges kwinscripts
+Icon=preferences-desktop
+Terminal=false
+Type=Application
+Categories=LXQt;Qt;System;Settings;DesktopSettings;
+StartupNotify=true
+OnlyShowIn=LXQt;
