@@ -1,0 +1,1 @@
+KCM integration into LXQt
