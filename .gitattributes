@@ -5,7 +5,6 @@
 .github              export-ignore
 .gitignore           export-ignore
 
-
 # several files and directories we never want to export 
 # a little bit belt and braces as the most of these files
 # should never ever be in the repository
@@ -15,5 +14,6 @@
 .translations-update export-ignore
 
 /build               export-ignore
+/packaging           export-ignore
 /temp                export-ignore
 /tmp                 export-ignore

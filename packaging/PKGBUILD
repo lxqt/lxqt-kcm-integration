@@ -1,0 +1,35 @@
+# Maintainer: Alf Gaida <agaida@siduction.org>
+
+_pkgname=lxqt-kcm-integration
+pkgname=$_pkgname-git
+pkgver=4d2286b
+pkgrel=1
+pkgdesc="LXQt KCM integration"
+arch=("i686" "x86_64")
+url="http://lxqt.org"
+license=("GPL2")
+depends=("kwin" "kinit" "bluedevil" "kinfocenter" "kde-cli-tools" "plasma-desktop")
+makedepends=("git" "cmake")
+provides=("$_pkgname")
+conflicts=("$_pkgname")
+source=("git+https://github.com/lxqt/$_pkgname.git")
+sha256sums=("SKIP")
+
+
+pkgver() {
+	cd "$srcdir/$_pkgname"
+	git describe --always | sed "s/-/./g"
+}
+
+build() {
+	mkdir -p build
+	cd build
+	cmake "$srcdir/$_pkgname" \
+		-DCMAKE_INSTALL_PREFIX=/usr
+	make
+}
+
+package() {
+	cd build
+	make DESTDIR="$pkgdir" install
+}
