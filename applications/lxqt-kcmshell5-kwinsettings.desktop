@@ -7,6 +7,6 @@ Exec=kcmshell5 --caption "LXQt KWin Settings" --desktopfile=/usr/share/kservices
 Icon=kwin
 Terminal=false
 Type=Application
-Categories=LXQt;Qt;Settings;DesktopSettings;
+Categories=LXQt;Qt;Settings;System;
 StartupNotify=true
 OnlyShowIn=LXQt;
