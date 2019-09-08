@@ -11,19 +11,37 @@ Vcs-Browser: https://salsa.debian.org/lxqt-team/lxqt-kcm-integration
 Vcs-Git: https://salsa.debian.org/lxqt-team/lxqt-kcm-integration.git
 Homepage: https://salsa.debian.org/lxqt-team/lxqt-kcm-integration
 
-Package: lxqt-kcm-kwin
+
+Package: lxqt-kcm
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends},
-         kwin,
-         kde-cli-tools
-Description: LXQt KCM integration for kwin
+         lxqt-kcm-appearance,
+         lxqt-kcm-bluetooth,
+         lxqt-kcm-kwin,
+         lxqt-kcm-sysinfo
+Description: Metaoackage for LXQt KCM integration
  LXQt is an advanced, easy-to-use, and fast desktop environment based on Qt
  technologies. It has been tailored for users who value simplicity, speed, and
  an intuitive interface. Unlike most desktop environments, LXQt also works
  fine with less powerful machines.
  .
  The package contains a desktop file for LXQt KCM kwin integration.
+
+Package: lxqt-kcm-appearance
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends},
+         bluedevil,
+         plasma,
+         foo
+Description: LXQt KCM appearance integration
+ LXQt is an advanced, easy-to-use, and fast desktop environment based on Qt
+ technologies. It has been tailored for users who value simplicity, speed, and
+ an intuitive interface. Unlike most desktop environments, LXQt also works
+ fine with less powerful machines.
+ .
+ The package is the metapackage meant for LXQt KCM integration.
 
 Package: lxqt-kcm-bluetooth
 Architecture: all
@@ -39,29 +57,28 @@ Description: LXQt KCM bluetooth integration
  .
  The package contains a desktop file for LXQt KCM bluetooth integration.
 
-Package: lxqt-kcm-appearance
-Architecture: all  
-Multi-Arch: foreign   
+Package: lxqt-kcm-kwin
+Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends},
-         bluedevil,   
-         plasma,
-         foo
-Description: LXQt KCM appearance integration
+         kwin,
+         kde-cli-tools
+Description: LXQt KCM integration for kwin
  LXQt is an advanced, easy-to-use, and fast desktop environment based on Qt
  technologies. It has been tailored for users who value simplicity, speed, and
  an intuitive interface. Unlike most desktop environments, LXQt also works
  fine with less powerful machines.
  .
- The package contains a desktop file for LXQt KCM appearance integration.
+ The package contains a desktop file for LXQt KCM kwin integration.
 
 Package: lxqt-kcm-sysinfo
-Architecture: all     
-Multi-Arch: foreign      
+Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends},
          bluedevil,
          plasma,
          foo
-Description: LXQt KCM sysinfo integration 
+Description: LXQt KCM sysinfo integration
  LXQt is an advanced, easy-to-use, and fast desktop environment based on Qt
  technologies. It has been tailored for users who value simplicity, speed, and
  an intuitive interface. Unlike most desktop environments, LXQt also works
