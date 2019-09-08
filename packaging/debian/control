@@ -32,9 +32,8 @@ Package: lxqt-kcm-appearance
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends},
-         bluedevil,
-         plasma,
-         foo
+         kde-cli-tools,
+         plasma-desktop
 Description: LXQt KCM appearance integration
  LXQt is an advanced, easy-to-use, and fast desktop environment based on Qt
  technologies. It has been tailored for users who value simplicity, speed, and
@@ -76,8 +75,8 @@ Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends},
          bluedevil,
-         plasma,
-         foo
+         kinfocenter,
+         kde-cli-tools
 Description: LXQt KCM sysinfo integration
  LXQt is an advanced, easy-to-use, and fast desktop environment based on Qt
  technologies. It has been tailored for users who value simplicity, speed, and
