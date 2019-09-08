@@ -7,6 +7,6 @@ Exec=kcmshell5 --caption "LXQt KCM Systeminfo" --desktopfile=/usr/share/kservice
 Icon=hwinfo
 Terminal=false
 Type=Application
-Categories=LXQt;Qt;Settings;DesktopSettings;
+Categories=LXQt;Qt;Settings;System;DesktopSettings;
 StartupNotify=true
 OnlyShowIn=LXQt;
