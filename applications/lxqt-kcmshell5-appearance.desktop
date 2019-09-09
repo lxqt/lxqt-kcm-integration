@@ -2,8 +2,8 @@
 Version=1.0
 Name=LXQt KCM Appearance
 Comment=Write a good comment TODO
-TryExec=kwin_x11
-Exec=kcmshell5 --caption "LXQt KCM Appearance" --desktopfile=/usr/share/kservices5/kwindecoration.desktop colors emoticons kcm_cursortheme kcm_fonts kcm_icons kcm_lookandfeel mouse style kde-gtk-config
+TryExec=kcolorschemeeditor
+Exec=kcmshell5 --caption "LXQt KCM Appearance" --desktopfile=/usr/share/kservices5/emoticons.desktop colors emoticons joystick kcm_cursortheme kcm_fonts kcm_icons kcm_launchfeedback kcm_lookandfeel mouse style kde-gtk-config
 Icon=preferences-desktop-theme
 Terminal=false
 Type=Application
