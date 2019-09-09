@@ -3,7 +3,7 @@ Version=1.0
 Name=LXQt KCM Systeminfo
 Comment= We need a nice comment :D
 TryExec=kinfocenter
-Exec=kcmshell5 --caption "LXQt KCM Systeminfo" --desktopfile=/usr/share/kservices5/kwindecoration.desktop about-distro devinfo dma interrupts ioports kcm_energyinfo kcm_memory kcm_pci kcmusb kcmview1394 nic opengl wayland xserver
+Exec=kcmshell5 --caption "LXQt KCM Systeminfo" --desktopfile=/usr/share/applications/org.kde.kinfocenter.desktop about-distro devinfo dma interrupts ioports kcm_energyinfo kcm_memory kcm_pci kcmusb kcmview1394 nic opengl wayland xserver
 Icon=hwinfo
 Terminal=false
 Type=Application
