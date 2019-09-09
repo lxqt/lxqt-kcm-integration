@@ -2,13 +2,17 @@
 
 _pkgname=lxqt-kcm-integration
 pkgname=$_pkgname-git
-pkgver=4d2286b
+pkgver=0.0.0.5.g3b790ce
 pkgrel=1
 pkgdesc="LXQt KCM Integration"
 arch=("i686" "x86_64")
 url="http://lxqt.org"
 license=("LGPL2")
-depends=("bluedevil" "kde-cli-tools" "kde-gtk-config" "kglobalaccel" "kinfocenter" "kwin" "plasma-desktop" "plasma-workplace")
+depends=("kde-cli-tools" "kglobalaccel" "kwin" "plasma-workspace")
+optdepends=('bluedevil: needed for lxqt-kcm-bluetooth'
+            'kde-gtk-config: needed for lxqt-kcm-appearance'
+            'kinfocenter: needed for lxqt-kcm-systeminfo'
+            'plasma-desktop: needed for lxqt-kcm-appearance colors and styles')
 makedepends=("git" "cmake")
 provides=("$_pkgname")
 conflicts=("$_pkgname")
