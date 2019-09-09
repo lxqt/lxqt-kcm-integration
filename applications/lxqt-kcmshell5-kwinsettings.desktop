@@ -3,7 +3,7 @@ Version=1.0
 Name=LXQt KWin Settings
 Comment=Decoration, Actions, Focus, Moving, Rules, Composing and others
 TryExec=kwin_x11
-Exec=kcmshell5 --caption "LXQt KWin Settings" --desktopfile=/usr/share/kservices5/kwindecoration.desktop kwinactions kwindecoration kwinfocus kwinmoving kwinadvanced kwinrules kwincompositing kwineffects kwintabbox kwinscreenedges kwinscripts
+Exec=kcmshell5 --caption "LXQt KWin Settings" --desktopfile=/usr/share/kservices5/kwindecoration.desktop kcm_kwin_effects kwinactions kwinadvanced kwincompositing kwindecoration kwinfocus kwinmoving kwinoptions kwinrules  kwinscreenedges kwinscripts kwintabbox kwintouchscreen
 Icon=kwin
 Terminal=false
 Type=Application
