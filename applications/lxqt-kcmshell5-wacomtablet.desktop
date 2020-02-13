@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=Graphic Tablet
+Comment=Wacom Tablet Settings
+TryExec=kde_wacom_tabletfinder
+Exec=kcmshell5 kcm_wacomtablet
+Icon=input-tablet
+Terminal=false
+Type=Application
+Categories=LXQt;Settings;DesktopSettings;System;Qt;
+StartupNotify=true
+OnlyShowIn=LXQt;

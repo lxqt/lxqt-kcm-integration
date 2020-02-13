@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Printers
+Comment=Configure your printers
+Icon=preferences-devices-printer
+TryExec=/usr/bin/configure-printer
+Exec=kcmshell5 kcm_printer_manager
+Terminal=false
+Type=Application
+Categories=LXQt;Settings;DesktopSettings;System;Qt;
+StartupNotify=true
+OnlyShowIn=LXQt;
+
+

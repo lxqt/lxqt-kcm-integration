@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=Boot Splash Screen
+Comment=Choose Plymouth boot splash screen
+Icon=preferences-desktop-display
+TryExec=kcm_plymouth
+Exec=kcmshell5 kcm_plymouth
+Terminal=false
+Type=Application
+Categories=LXQt;Settings;DesktopSettings;System;Qt;
+StartupNotify=true
+OnlyShowIn=LXQt;
