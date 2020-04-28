@@ -2,7 +2,7 @@
 Version=1.0
 Name=Fancontrol
 Comment=Control PWM-fans
-TryExec=kcmshell5 kcm_fancontrol
+TryExec=fancontrol_gui
 Exec=kcmshell5 kcm_fancontrol
 Icon=org.kde.fancontrol.gui
 Terminal=false

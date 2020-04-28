@@ -2,7 +2,7 @@
 Version=1.0
 Name=Fcitx5 Input Method
 Comment=Configure Fcitx5 Input Method
-TryExec=kcmshell5 kcm_fcitx5
+TryExec=fcitx5
 Exec=kcmshell5 kcm_fcitx5
 Icon=fcitx
 Terminal=false

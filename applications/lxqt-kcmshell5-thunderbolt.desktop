@@ -2,7 +2,7 @@
 Version=1.0
 Name=Thunderbolt
 Comment=Thunderbolt Device Management
-TryExec=kcmshell5 kcm_bolt
+TryExec=boltctl
 Exec=kcmshell5 kcm_bolt
 Icon=preferences-desktop-thunderbolt
 Terminal=false

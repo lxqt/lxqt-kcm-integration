@@ -2,7 +2,7 @@
 Version=1.0
 Name=Login Screen (SDDM)
 Comment=Configure Login Manager
-TryExec=kcmshell5 kcm_sddm
+TryExec=sddm
 Exec=kcmshell5 kcm_sddm
 Icon=preferences-system-login
 Terminal=false
