@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=NX Firewall
+Comment=NX Firewall - Secure your workstation!
+Icon=security-high
+TryExec=ufw
+Exec=kcmshell5 org_nxos_firewall
+Terminal=false
+Type=Application
+Categories=LXQt;Settings;DesktopSettings;System;Qt;
+StartupNotify=true
+OnlyShowIn=LXQt;

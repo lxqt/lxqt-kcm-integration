@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=KDE Connect
+Comment=Connect and sync your devices
+TryExec=kdeconnect-app
+Exec=kcmshell5 kcm_kdeconnect
+Icon=preferences-kde-connect
+Terminal=false
+Type=Application
+Categories=LXQt;Settings;DesktopSettings;System;Qt;
+StartupNotify=true
+OnlyShowIn=LXQt;

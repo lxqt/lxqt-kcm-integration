@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=Screen Locking
+Comment=Configure screen locking
+Icon=preferences-desktop-user-password
+#TryExec=kcmshell5 screenlocker
+Exec=kcmshell5 screenlocker
+Terminal=false
+Type=Application
+Categories=LXQt;Settings;DesktopSettings;System;Qt;
+StartupNotify=true
+OnlyShowIn=LXQt;

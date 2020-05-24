@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=Fcitx Input Method
+Comment=Configure Fcitx Input Method
+TryExec=fcitx
+Exec=kcmshell5 kcm_fcitx
+Icon=fcitx
+Terminal=false
+Type=Application
+Categories=LXQt;Settings;DesktopSettings;System;Qt;
+StartupNotify=true
+OnlyShowIn=LXQt;
